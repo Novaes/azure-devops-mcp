@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ../azure-devops-mcp-server
+      dockerfile: Dockerfile
+    container_name: azure-devops-mcp-server
+    ports:
+      - "8080:8080"  # Expose port 8080 for the server
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: azure-devops-mcp-client
+    environment:
+      - SERVER_URL=http://azure-devops-mcp-server:8080  # Environment variable to specify server URL
+    depends_on:
+      - server
+    ports:
+      - "8081:8081"  # Expose port 8081 for the client (if needed)

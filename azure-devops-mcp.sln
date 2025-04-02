@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-devops-mcp", "azure-devops-mcp.csproj", "{4AEF09AC-34E4-4E32-B0C5-7E279A983A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-devops-mcp-client", "..\azure-devops-mcp-client\azure-devops-mcp-client.csproj", "{47752E95-E6F5-D581-A60B-0A4982762CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-devops-mcp-server", "..\azure-devops-mcp-server\azure-devops-mcp-server.csproj", "{5F3F131E-AA7A-F1D4-9A67-9B977FC35485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AEF09AC-34E4-4E32-B0C5-7E279A983A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEF09AC-34E4-4E32-B0C5-7E279A983A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEF09AC-34E4-4E32-B0C5-7E279A983A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEF09AC-34E4-4E32-B0C5-7E279A983A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47752E95-E6F5-D581-A60B-0A4982762CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47752E95-E6F5-D581-A60B-0A4982762CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47752E95-E6F5-D581-A60B-0A4982762CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47752E95-E6F5-D581-A60B-0A4982762CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3F131E-AA7A-F1D4-9A67-9B977FC35485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3F131E-AA7A-F1D4-9A67-9B977FC35485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3F131E-AA7A-F1D4-9A67-9B977FC35485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3F131E-AA7A-F1D4-9A67-9B977FC35485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84294371-B0B1-4C52-A0C1-3BECE6124C8E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "azure-devops-servers": [
+      {
+        "id": "azure-devops-server-mseng",
+        "name": "Azure DevOps Server for mseng org",
+        "command": "npx",
+        "args": [ "-y", "@modelcontextprotocol/server-azure-devops" ]
+      }
+    ]
+  }
+}

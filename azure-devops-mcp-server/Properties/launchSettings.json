@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "azure-devops-mcp-server": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

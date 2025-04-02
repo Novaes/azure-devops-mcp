@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>azure_devops_mcp</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <Target Name="Open">
+    <Exec Command="start devenv.exe $(MSBuildProjectFullPath)" />
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\azure-devops-mcp-client\azure-devops-mcp-client.csproj" />
+    <ProjectReference Include="..\azure-devops-mcp-server\azure-devops-mcp-server.csproj" />
+  </ItemGroup>
+
+</Project>
